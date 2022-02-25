@@ -1,6 +1,6 @@
 # HackWesTX
 HackWesTX Hackathon
 
-Hello 
+Hello  (Josh was here.)
 
 Hello! (Gil was here.)
