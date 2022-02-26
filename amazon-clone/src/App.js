@@ -1,12 +1,12 @@
 import './App.css';
 import Header from './Header';
-import User_Profile from './User_Profile';
+import UserProfile from './UserProfile';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <User_Profile />
+      <UserProfile />     
 
     </div>
   );
