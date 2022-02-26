@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.css'
-import SearchIcon from '@material-ui/icons/Search';
+import SearchIcon from '@material-ui/icons/SearchTwoTone';
 import ArrowDropDownCircleRounded from '@material-ui/icons/ArrowDropDownCircleRounded';
 import defavatar from './img/defavatar.jpg';
 
@@ -29,7 +29,7 @@ function Navbar() {
         </div>
         
         <div className="navbar__optionDropdown">
-          <ArrowDropDownCircleRounded />
+          <ArrowDropDownCircleRounded fontSize="large" />
         </div>
 
       </div>

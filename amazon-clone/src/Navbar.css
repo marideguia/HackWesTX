@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Oval&display=swap');
+
 .navbar {
   height: 75px;
   display: flex;
@@ -18,8 +20,12 @@
 }
 
 .navbar__name {
+  font-family: 'Nova Oval', cursive;
+  font-size: 32px;
+  font-weight: bolder;
+  font-style: italic;
   color: white;
-  padding: 0 10px 0 10px;
+  padding: 0 20px 0 10px;
 }
 
 .navbar__search {
@@ -59,10 +65,7 @@
   right: 5px;
   padding: 5px;
   height: 24px !important;
-  background-color: #dddddd;
-  border-radius: 24px;
-  -moz-border-radius: 24px;
-  -webkit-border-radius: 24px;
+  color: #b0b0b0;
 }
 
 .navbar__menu {
