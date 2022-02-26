@@ -1,7 +1,8 @@
 import React from 'react'
 import './Navbar.css'
 import SearchIcon from '@material-ui/icons/Search';
-import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
+import ArrowDropDownCircleRounded from '@material-ui/icons/ArrowDropDownCircleRounded';
+import defavatar from './img/defavatar.jpg';
 
 function Navbar() {
   return (
@@ -18,30 +19,22 @@ function Navbar() {
         <SearchIcon className="navbar__searchIcon" />
       </div>
 
-      <div className='header__nav'>
-        <div className='header__option'>
-          <span className='header__optionLineOne'>Hello Guest</span>
-          <span className='header__optionLineTwo'>Sign In</span>
+      <div className="navbar__menu">
+        <div className="navbar__user">
+          <img className="navbar__avatar" src={defavatar} alt="Avatar" />
+          <div className="navbar__loggedIn">
+            <span className="navbar__usernameLineOne">logged in as</span> 
+            <span className="navbar__usernameLineTwo">username</span>
+          </div>
         </div>
         
-        <div className='header__option'>
-          <span className='header__optionLineOne'>Returns</span>
-          <span className='header__optionLineTwo'>& Orders</span>
+        <div className="navbar__optionDropdown">
+          <ArrowDropDownCircleRounded />
         </div>
 
-        <div className='header__option'>
-          <span className='header__optionLineOne'>Your</span>
-          <span className='header__optionLineTwo'>Prime</span>
-        </div>
-        
-        <div className="header__optionBasket">
-                      <ShoppingCartIcon />
-                      <span className="header__basketCount">0</span>
-                  </div>
-
-              </div>
-          
       </div>
+
+    </div>
   )
 }
 

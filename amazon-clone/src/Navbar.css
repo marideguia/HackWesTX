@@ -1,6 +1,8 @@
 .navbar {
   height: 75px;
   display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
   align-items: center;
   background-color: #77a8e7;
   position: sticky;
@@ -21,10 +23,10 @@
 }
 
 .navbar__search {
-    display: flex;
-    -moz-display: flex;
-    -webkit-display: flex;
-    flex: 1;
+  display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
+  flex: 1;
   align-items: center;
   background-color: #ffffff;
   border-radius: 24px;
@@ -63,36 +65,68 @@
   -webkit-border-radius: 24px;
 }
 
-.header__optionLineOne {
+.navbar__menu {
+  align-items: center;
+  margin: auto 10px auto 10px;
+  display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
+}
+
+.navbar__user {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  flex-direction: row;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+  background-color: #c0c0c0;
+  padding: 5px;
+  border-radius: 24px;
+  -moz-border-radius: 24px;
+  -webkit-border-radius: 24px;
+}
+
+.navbar__avatar {
+  object-fit: cover;
+  width: 32px;
+  vertical-align: middle;
+  border-radius: 24px;
+  -moz-border-radius: 24px;
+  -webkit-border-radius: 24px;
+}
+
+.navbar__loggedIn {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  margin-right: 10px;
+  color: white;
+}
+
+.navbar__usernameLineOne {
   font-size: 10px;
   text-align: left;
 }
 
-.header__optionLineTwo {
+.navbar__usernameLineTwo {
   font-size: 13px;
-  font-weight: 800;
-  text-align: left;
+  font-weight: bold;
 }
 
-.header__optionBasket {
+.navbar__optionDropdown {
   display: flex;
   align-items: center;
   color: white;
 }
 
-.header__basketCount {
-  margin-left: 10px;
-  margin-right: 10px;
-  font-size: 13px;
-  font-weight: 800;
-}
-
-.header__nav {
+.navbar__nav {
   display: flex;
   justify-content: space-evenly;
 }
 
-.header__option {
+.navbar__option {
   display: flex;
   flex-direction: column;
   margin-left: 10px;
