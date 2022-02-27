@@ -1,6 +1,7 @@
 import React from 'react';
 import './Post.css';
 import PostContentText from './PostContentText';
+import PostContentImage from './PostContentImage';
 import defavatar from '../img/defavatar.jpg';
 import MoreHoriz from '@material-ui/icons/MoreHoriz';
 import Like from '@material-ui/icons/Favorite';
@@ -14,7 +15,7 @@ function Post() {
       <div className="post__close">
         <Close />
       </div>
-      <PostContentText />
+      <PostContentImage />
       <div className="post__thread">
         <div className="post__caption">
           <div className="post__avatarspace">
@@ -30,7 +31,7 @@ function Post() {
           </div>
         </div>
         <div className="post__interacts">
-          <div className="post__interactcounter"><Like color='red' /><strong>5</strong></div>
+          <div className="post__interactcounter"><Like /><strong>5</strong></div>
           <div className="post__interactcounter"><Comment /><strong>5</strong></div>
           <div className="post__interactcounter"><Reshare /><strong>5</strong></div>
         </div>
