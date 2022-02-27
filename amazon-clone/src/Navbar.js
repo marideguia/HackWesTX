@@ -24,7 +24,7 @@ function Navbar() {
           <img className="navbar__avatar" src={defavatar} alt="Avatar" />
           <div className="navbar__loggedIn">
             <span className="navbar__usernameLineOne">logged in as</span> 
-            <span className="navbar__usernameLineTwo">username</span>
+            <span className="navbar__usernameLineTwo">karena117</span>
           </div>
         </div>
         
