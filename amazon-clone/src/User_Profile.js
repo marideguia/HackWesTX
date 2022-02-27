@@ -10,7 +10,7 @@ function User_Profile() {
     <div className="User_Profile">
       <div className='User_Profile__Container'>
         <ProfileTop 
-          icon="https://static.vecteezy.com/system/resources/thumbnails/002/318/271/small/user-profile-icon-free-vector.jpg"
+          icon="https://cdn.britannica.com/38/111338-050-D23BE7C8/Stars-NGC-290-Hubble-Space-Telescope.jpg?w=400&"
           username ='karena117'
           profession='Author'
           desc = "Hi! My name's Carina and I'm an aspiring author. I've written books like 'West Texas Sunsets' and 'Pink Fuji.' Check me out below! COMMISSIONS ARE OPEN ✨"
