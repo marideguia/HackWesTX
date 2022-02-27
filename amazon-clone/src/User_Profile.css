@@ -3,6 +3,13 @@
   margin-left: 275px;
   margin-right: auto;
   max-width: 2000px;
+  /* background-color: #c8a5ca; */
+}
+
+.User_Profile__Container {
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgb(163, 49, 49); */
 }
 
 .row {
