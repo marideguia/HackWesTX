@@ -1,62 +1,107 @@
 .profileTop {
-  margin-left: 100px;
-  margin-right: 100px;
+  /* justify-self: center; */
+  justify-content: center;
   display: flex;
   flex-direction: row;
   background-color: #c8a5ca;
+  width: 82%;
+  border-radius: 20px;
 }
 
 .profile__cardheader {
   /*left: icon, username, profession*/
   flex-direction: column;
-}
-
-.profile__username {
-  margin-top: 5px;
-  text-align: center;
-}
-
-.profile__profession {
-  margin-top: 5px;
+  justify-content: center;
+  /* background-color: #ffffff; */
 }
 .profile__imagecrop {
-  margin-left: 20px;
-  margin-top: 15px;
+  margin: 15px 20px;
   width: 100px;
   height: 100px;
   position: relative;
   overflow: hidden;
   border-radius: 50%;
 }
-
 img {
   display: inline;
   margin: 0 auto;
   height: 100%;
   width: auto;
 }
+.profile__username {
+  margin-top: 5px;
+  text-align: center;
+}
+.profile__profession {
+  text-align: center;
+}
+
 .profile__cardabout {
   /*right: about, followers,following,subs*/
   flex-direction: column;
+  width: 70%;
 }
-.profile__cardaboutRow {
-  display: flex;
-  flex-direction: row;
-  margin-right: 20px;
-}
-
 .profile__description {
   text-align: left;
   margin-left: 20px;
+  width: 70%;
 }
-
-.profile__cardbuttonContainer {
+.profile__folContainer {
   display: flex;
   align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 20px;
+  width: 70%;
 }
-
+.profile__fol {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  align-items: center;
+  margin: 10px 5px;
+  background-color: #a872ac;
+}
+.profile__folstats {
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 5px;
+}
+.profile__cardFollowContainer {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  /* background: #a872ac; */
+  margin-bottom: 5px;
+  width: 70%;
+}
+.profile__cardFollowContainer > button {
+  width: 100%;
+  margin-left: 5px;
+  font-family: "Nunito", sans-serif;
+  background: #a872ac;
+  border: 2px solid;
+  margin-top: 10px;
+  border-color: #ffffff #ffffff #ffffff;
+  color: #ffffff;
+  padding: 15px 50px;
+  border-radius: 30px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+}
+.profile__cardbuttonContainer {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  /* background: #a872ac; */
+  margin-bottom: 5px;
+  width: 70%;
+}
 .profile__cardbuttonContainer > button {
-  margin-left: 10px;
+  width: 100%;
+  margin-left: 5px;
   font-family: "Nunito", sans-serif;
   background: #a872ac;
   border: 2px solid;
@@ -67,20 +112,4 @@ img {
   border-radius: 30px;
   -moz-border-radius: 30px;
   -webkit-border-radius: 30px;
-}
-.profile__folContainer {
-}
-.profile__fol {
-  display: flex;
-  margin-left: 10px;
-  flex-direction: row;
-  background-color: #a872ac;
-}
-
-.profile__folstats {
-  color: white;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  margin: 20px 30px;
 }

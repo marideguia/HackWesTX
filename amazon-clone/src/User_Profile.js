@@ -8,16 +8,18 @@ import ProfileTop from "./ProfileTop";
 function User_Profile() {
   return (
     <div className="User_Profile">
-      <ProfileTop 
+      <div className='User_Profile__Container'>
+        <ProfileTop 
           icon="https://static.vecteezy.com/system/resources/thumbnails/002/318/271/small/user-profile-icon-free-vector.jpg"
-          username ='User1'
+          username ='karena117'
           profession='Author'
-          desc = 'Hello! My name is User1 and I am an aspiring author. I have written books like Novel1 and Novel2.'
-          link='www.User1swebsite.com'
-          followers = '100'
+          desc = "Hi! My name's Carina and I'm an aspiring author. I've written books like 'West Texas Sunsets' and 'Pink Fuji.' Check me out below! COMMISSIONS ARE OPEN ✨"
+          link='www.CarinaW.com'
+          followers = '1000'
           following = '200'
           subscribers = '15'
-        /> 
+        />
+      
       <div className="row">
 
         <div className="column">
@@ -116,9 +118,10 @@ function User_Profile() {
 
         </div>
         
-        
+        </div>
       </div>
     </div>
+    
   );
 }
 
