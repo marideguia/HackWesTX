@@ -30,6 +30,11 @@
   padding: 0 20px 0 10px;
 }
 
+.navbar__name > a {
+  color: white;
+  text-decoration: none;
+}
+
 .navbar__search {
   display: flex;
   -moz-display: flex;
@@ -77,6 +82,11 @@
   display: flex;
   -moz-display: flex;
   -webkit-display: flex;
+}
+
+.navbar__option > a {
+  display: flex;
+  color: white;
 }
 
 .navbar__user {

@@ -8,12 +8,13 @@ import Like from '@material-ui/icons/Favorite';
 import Comment from '@material-ui/icons/CommentRounded';
 import Reshare from '@material-ui/icons/Share';
 import Close from '@material-ui/icons/CloseRounded';
+import { Link } from 'react-router-dom';
 
 function Post() {
   return (
     <div className="post">
       <div className="post__close">
-        <Close />
+        <Link to="/"><Close /></Link>
       </div>
       <PostContentImage />
       <div className="post__thread">
