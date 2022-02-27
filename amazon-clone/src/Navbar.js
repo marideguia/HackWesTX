@@ -1,5 +1,5 @@
-import React from 'react'
-import './Navbar.css'
+import React from 'react';
+import './Navbar.css';
 import SearchIcon from '@material-ui/icons/SearchTwoTone';
 import ArrowDropDownCircleRounded from '@material-ui/icons/ArrowDropDownCircleRounded';
 import defavatar from './img/defavatar.jpg';
