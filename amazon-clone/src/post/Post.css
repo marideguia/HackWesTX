@@ -49,11 +49,17 @@
 }
 
 .post__avatarspace {
-    width: fit-content;
+    width: 32px;
+    height: 32px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
 }
 
 .post__userbar {
     display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .post__interacts {
@@ -78,8 +84,6 @@
 .post__avatar {
     object-fit: cover;
     width: 32px;
-    margin: 5px;
-    margin-right: 10px;
     border-radius: 24px;
     -moz-border-radius: 24px;
     -webkit-border-radius: 24px;
