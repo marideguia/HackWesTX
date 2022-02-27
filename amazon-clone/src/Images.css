@@ -29,4 +29,5 @@
 
 .Brush {
   transform: scale(5);
+  display: flex;
 }
