@@ -17,7 +17,7 @@ function ProfileTop({ icon, username, profession, desc, link, followers, followi
         <div className='profile__username'>
           <strong>@{username}</strong>   
         </div>    
-        <p>{profession}</p>
+        <weak>{profession}</weak>
 
       </div>
       <div className='profile__cardabout'> 
