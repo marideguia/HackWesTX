@@ -5,7 +5,6 @@ import User_Profile from './User_Profile';
 function App() {
   return (
     <div className="App">
-      <Header />
       <User_Profile />
 
     </div>

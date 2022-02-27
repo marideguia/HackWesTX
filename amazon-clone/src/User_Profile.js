@@ -1,67 +1,111 @@
 import React from "react";
 import "./User_Profile.css";
-import Product from "./Product"
+import Image from "./Image";
+import Song from "./Song";
+import Video from "./Videos"
 
 function User_Profile() {
   return (
-    <div className="home">
-      <div className="home__container">
-        <img
-          className="home__image"
-          src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
-          alt=""
-        />
-<div className="home__row">
-          <Product
-            id="12321341"
-            title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
-            price={11.96}
-            rating={5}
-            image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
+    <div className="User_Profile">
+      <div className="row">
+
+        <div className="column">
+          <Image
+            image="https://mymodernmet.com/wp/wp-content/uploads/2020/01/enrique-bernal-florescent-drawings-1.jpg"
           />
-          <Product
-            id="49538094"
-            title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
-            price={239.0}
-            rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
+          <Video
+            Thumbnail="https://i.pinimg.com/originals/10/7a/c9/107ac9bce43e9b97ea66464977ca0d77.gif"
+            />
+          <Song
+            album="https://m.media-amazon.com/images/I/81pf4NjVhfL._SX522_.jpg"
+            />
+          <Image
+            image="https://pbs.twimg.com/media/FEZoU8LXIAcyKEM.jpg"
           />
+          <Image
+            image="https://mymodernmet.com/wp/wp-content/uploads/2020/01/enrique-bernal-florescent-drawings-1.jpg"
+          />
+          <Video
+            Thumbnail="https://i.pinimg.com/originals/10/7a/c9/107ac9bce43e9b97ea66464977ca0d77.gif"
+            />
+          <Song
+            album="https://m.media-amazon.com/images/I/81pf4NjVhfL._SX522_.jpg"
+            />
         </div>
 
-        <div className="home__row">
-          <Product
-            id="4903850"
-            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
-            price={199.99}
-            rating={3}
-            image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
+        <div className="column">
+         <Video
+            Thumbnail="https://i.gifer.com/60q3.gif"
+            />
+          <Song
+            album="https://images.complex.com/complex/images/c_fill,dpr_auto,f_auto,q_auto,w_1400/fl_lossy,pg_1/n1spfyib0hwmvx7xvu75/silk-sonic?fimg-ssr-default"
           />
-          <Product
-            id="23445930"
-            title="Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"
-            price={98.99}
-            rating={5}
-            image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
+          <Image
+            image="https://mymodernmet.com/wp/wp-content/uploads/2020/01/enrique-bernal-florescent-drawings-01.jpg"
           />
-          <Product
-            id="3254354345"
-            title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
-            price={598.99}
-            rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
+          <Song
+            album="https://m.media-amazon.com/images/I/81pf4NjVhfL._SX522_.jpg"
           />
-          
-        </div>
+          <Video
+            Thumbnail="https://i.gifer.com/60q3.gif"
+            />
+          <Song
+            album="https://images.complex.com/complex/images/c_fill,dpr_auto,f_auto,q_auto,w_1400/fl_lossy,pg_1/n1spfyib0hwmvx7xvu75/silk-sonic?fimg-ssr-default"
+          />
+          <Image
+            image="https://mymodernmet.com/wp/wp-content/uploads/2020/01/enrique-bernal-florescent-drawings-01.jpg"
+          />
 
-        <div className="home__row">
-          <Product
-            id="90829332"
-            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
-            price={1094.98}
-            rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
-          />
         </div>
+        <div className="column">
+          <Image
+            image="https://mymodernmet.com/wp/wp-content/uploads/2020/01/enrique-bernal-florescent-drawings-1.jpg"
+          />
+          <Song
+            album="https://m.media-amazon.com/images/I/81pf4NjVhfL._SX522_.jpg"
+          />
+          <Video
+            Thumbnail="https://thumbs.gfycat.com/BowedHalfKronosaurus-size_restricted.gif"
+            />
+            <Image
+            image="https://mymodernmet.com/wp/wp-content/uploads/2020/01/enrique-bernal-florescent-drawings-1.jpg"
+          />
+          <Image
+            image="https://mymodernmet.com/wp/wp-content/uploads/2020/01/enrique-bernal-florescent-drawings-1.jpg"
+          />
+          <Song
+            album="https://m.media-amazon.com/images/I/81pf4NjVhfL._SX522_.jpg"
+          />
+          <Video
+            Thumbnail="https://thumbs.gfycat.com/BowedHalfKronosaurus-size_restricted.gif"
+            />
+        </div>
+        <div className="column">
+         <Video
+            Thumbnail="https://i.gifer.com/60q3.gif"
+            />
+          <Song
+            album="https://images.complex.com/complex/images/c_fill,dpr_auto,f_auto,q_auto,w_1400/fl_lossy,pg_1/n1spfyib0hwmvx7xvu75/silk-sonic?fimg-ssr-default"
+          />
+          <Image
+            image="https://mymodernmet.com/wp/wp-content/uploads/2020/01/enrique-bernal-florescent-drawings-01.jpg"
+          />
+          <Song
+            album="https://m.media-amazon.com/images/I/81pf4NjVhfL._SX522_.jpg"
+          />
+          <Video
+            Thumbnail="https://i.gifer.com/60q3.gif"
+            />
+          <Song
+            album="https://images.complex.com/complex/images/c_fill,dpr_auto,f_auto,q_auto,w_1400/fl_lossy,pg_1/n1spfyib0hwmvx7xvu75/silk-sonic?fimg-ssr-default"
+          />
+          <Image
+            image="https://mymodernmet.com/wp/wp-content/uploads/2020/01/enrique-bernal-florescent-drawings-01.jpg"
+          />
+
+        </div>
+        
+        
       </div>
     </div>
   );
