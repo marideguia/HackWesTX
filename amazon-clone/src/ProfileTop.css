@@ -3,7 +3,7 @@
   margin-right: 100px;
   display: flex;
   flex-direction: row;
-  background-color: #afd1f8;
+  background-color: #c8a5ca;
 }
 
 .profile__cardheader {
@@ -71,7 +71,7 @@ img {
 .profile__cardbuttonContainer > button {
   margin-left: 10px;
   font-family: "Nunito", sans-serif;
-  background: #7788e7;
+  background: #a872ac;
   border: 1px solid;
   margin-top: 10px;
   border-color: #ffffff #ffffff #ffffff;
