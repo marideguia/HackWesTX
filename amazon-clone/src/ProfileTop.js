@@ -5,46 +5,64 @@ function ProfileTop({ icon, username, profession, desc, link, followers, followi
  
   return (
     <div className="profileTop">
-      <div className="profile__card">
+      <div className="profile__cardheader">
+        <div className='profile__imagecrop'>
+          <img 
+            src={icon}
+            class='rounded' 
+            alt= 'profile icon image' 
+          />
+          <p>
+            <strong>@{username}</strong>              
+          </p>
+          <p>
+              {profession}
+          </p>
+        </div>
+          
+      </div>        
 
-        <div className="profile__cardicon">
-            <img 
-                src={icon} 
-                alt= 'profile icon image' />
-            <p className='profile__username'>
-                @{username}
-            </p>
-            <p className='profile__profession'>
-                {profession}
-            </p>
+      <div className='profile__cardabout'>          
+
+        <div className='profile__description'>
+            <p>{desc}</p>          
+            <p><strong>{link}</strong></p>
+        </div>  
+          
+        <div className='profile__cardbuttonContainer'>
+          <button>Follow</button>
         </div>        
 
-        <div className='profile__cardabout'>
-            <p className='profile__description'>
-                {desc}
-             </p>
-             <p>
-                {link}
-             </p>
-        </div>
-        <div className='profile__cardbutton'>
+        <div className='profile__cardbuttonContainer'>        
           <button>Commission</button>
-          <button>Subscribe</button>
           <button>Donate</button>
+          <button>Subscribe</button>            
         </div>
-        
-            <p className='profile__fol'>
-                <span>{followers}</span>
-                <span>{following}</span>
-                <span>{subscribers}</span>
-                
-            </p>
+
+        <div className='profile__fol'>
+          <div className='profile__folstats'>
+            Followers
+            <p>{followers}</p>
+          </div>
+          
+
+          <div className='profile__folstats'>
+            Following
+            <p>{following}</p>
+          </div>
+
+          <div className='profile__folstats'>
+            Subscribers
+            <p>{subscribers}</p>
+          </div>                           
+        </div>
+      </div>       
+           
              
 
-      </div> {/*end profile__info div */}
+   </div>
 
       
-    </div>
   );
 }
 

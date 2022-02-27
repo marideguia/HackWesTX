@@ -1,41 +1,95 @@
 .profileTop {
-  justify-content: flex-end;
-  margin: 10px;
-  width: 100%;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: row;
   background-color: #afd1f8;
 }
 
-.profile__card {
-  display: flex;
-  flex-direction: row;
-}
-
-.profile__cardicon {
+.profile__cardheader {
   /*left: icon, username, profession*/
   display: flex;
   flex-direction: column;
 }
 
-.profile__cardabout {
-  /*right: about, followers,following,subs*/
-  display: flex;
-  flex-direction: column;
+/* .profile__username {
+  margin-top: 10px;
 }
 
-.profile__cardbutton > button {
+.profile__profession {
+  margin-top: 5px;
+} */
+.profile__imagecrop {
+  margin-left: 20px;
+  margin-top: 15px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+img {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+.profile__cardabout {
+  /*right: about, followers,following,subs*/
+  flex-direction: column;
+}
+.profile__cardaboutRow {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+}
+
+.profile__description {
+  text-align: left;
+  margin-left: 20px;
+}
+
+/* .profile__cardabout > button {
+  margin-left: 5px;
+  font-family: "Nunito", sans-serif;
   background: #7788e7;
   border: 1px solid;
   margin-top: 10px;
   border-color: #ffffff #ffffff #ffffff;
   color: #ffffff;
+  padding: 15px 32px;
+  border-radius: 30px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+} */
+
+.profile__cardbuttonContainer {
+  display: flex;
+  align-items: center;
+}
+.profile__cardbuttonContainer > button {
+  margin-left: 10px;
+  font-family: "Nunito", sans-serif;
+  background: #7788e7;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #ffffff #ffffff #ffffff;
+  color: #ffffff;
+  padding: 15px 32px;
+  border-radius: 30px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
 }
 
 .profile__fol {
-  height: 25px;
-  margin-bottom: 15px;
+  display: flex;
+  margin-left: 20px;
+  flex-direction: row;
 }
 
-.profile__folnums {
-  height: 25px;
-  margin-bottom: 15px;
+.profile__folstats {
+  text-align: center;
+
+  margin: 20px 30px;
 }
