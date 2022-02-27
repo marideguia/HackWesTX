@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Oval&family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.navbar {
+  height: 75px;
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
+  align-items: center;
+  background-color: #77a8e7;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar__logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 18px;
+}
+
+.navbar__name {
+  font-family: 'Nova Oval', cursive;
+  font-size: 32px;
+  letter-spacing: -3px;
+  font-weight: bolder;
+  font-style: italic;
+  color: white;
+  padding: 0 20px 0 10px;
+}
+
+.navbar__search {
+  display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
+  flex: 1;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 24px;
+  -moz-border-radius: 24px;
+  -webkit-border-radius: 24px;
+}
+
+.navbar__searchInput {
+  font-family: 'Nunito', sans-serif;
+  height: auto;
+  width: 100%;
+  padding: 8px 0 8px 0;
+  margin: 5px 10px 5px 20px;
+  border: none;
+}
+
+.navbar__searchInput::placeholder {
+  font-style: italic;
+}
+
+.navbar__searchInput::-webkit-placeholder {
+  font-style: italic;
+}
+
+.navbar__searchInput::-moz-placeholder {
+  font-style: italic;
+}
+
+.navbar__searchIcon {
+  position: relative;
+  right: 5px;
+  padding: 5px;
+  height: 24px !important;
+  color: #b0b0b0;
+}
+
+.navbar__menu {
+  align-items: center;
+  margin: auto 10px auto 10px;
+  display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
+}
+
+.navbar__user {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  flex-direction: row;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+  background-color: #c0c0c0;
+  padding: 5px;
+  border-radius: 24px;
+  -moz-border-radius: 24px;
+  -webkit-border-radius: 24px;
+}
+
+.navbar__avatar {
+  object-fit: cover;
+  width: 32px;
+  vertical-align: middle;
+  border-radius: 24px;
+  -moz-border-radius: 24px;
+  -webkit-border-radius: 24px;
+}
+
+.navbar__loggedIn {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  margin-right: 10px;
+  color: white;
+}
+
+.navbar__usernameLineOne {
+  font-size: 10px;
+  text-align: left;
+}
+
+.navbar__usernameLineTwo {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.navbar__optionDropdown {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.navbar__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navbar__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
