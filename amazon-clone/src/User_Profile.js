@@ -1,13 +1,23 @@
 import React from "react";
 import "./User_Profile.css";
-<<<<<<< HEAD
 import Image from "./Image";
 import Song from "./Song";
 import Video from "./Videos"
+import ProfileTop from "./ProfileTop";
 
 function User_Profile() {
   return (
     <div className="User_Profile">
+      <ProfileTop 
+          icon="https://static.vecteezy.com/system/resources/thumbnails/002/318/271/small/user-profile-icon-free-vector.jpg"
+          username ='User1'
+          profession='Author'
+          desc = 'Hello! My name is User1 and I am an aspiring author. I have written books like Novel1 and Novel2.'
+          link='www.User1swebsite.com'
+          followers = '100'
+          following = '200'
+          subscribers = '15'
+        /> 
       <div className="row">
 
         <div className="column">
@@ -25,46 +35,6 @@ function User_Profile() {
           />
           <Image
             image="https://mymodernmet.com/wp/wp-content/uploads/2020/01/enrique-bernal-florescent-drawings-1.jpg"
-=======
-import Product from "./Product"
-import ProfileTop from './ProfileTop'
-
-function User_Profile() {
-  return (
-       
-      <div className="home__container">       
-        <ProfileTop 
-          icon="https://static.vecteezy.com/system/resources/thumbnails/002/318/271/small/user-profile-icon-free-vector.jpg"
-          username ='User1'
-          profession='Author'
-          desc = 'Hello! My name is User1 and I am an aspiring author. I have written books like Novel1 and Novel2.'
-          link='www.User1swebsite.com'
-          followers = '100'
-          following = '200'
-          subscribers = '15'
-        />    
-
-
-        <img
-          className="home__image"
-          src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
-          alt=""
-        />
-        <div className="home__row">
-          <Product
-            id="12321341"
-            title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
-            price={11.96}
-            rating={5}
-            image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
-          />
-          <Product
-            id="49538094"
-            title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
-            price={239.0}
-            rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
->>>>>>> 0e0f82d63a17ec1d5673bb068f21f1bf391a10d4
           />
           <Video
             Thumbnail="https://i.pinimg.com/originals/10/7a/c9/107ac9bce43e9b97ea66464977ca0d77.gif"
@@ -148,6 +118,7 @@ function User_Profile() {
         
         
       </div>
+    </div>
   );
 }
 

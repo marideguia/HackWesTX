@@ -8,17 +8,17 @@
 
 .profile__cardheader {
   /*left: icon, username, profession*/
-  display: flex;
   flex-direction: column;
 }
 
-/* .profile__username {
-  margin-top: 10px;
+.profile__username {
+  margin-top: 5px;
+  text-align: center;
 }
 
 .profile__profession {
   margin-top: 5px;
-} */
+}
 .profile__imagecrop {
   margin-left: 20px;
   margin-top: 15px;
@@ -50,29 +50,16 @@ img {
   margin-left: 20px;
 }
 
-/* .profile__cardabout > button {
-  margin-left: 5px;
-  font-family: "Nunito", sans-serif;
-  background: #7788e7;
-  border: 1px solid;
-  margin-top: 10px;
-  border-color: #ffffff #ffffff #ffffff;
-  color: #ffffff;
-  padding: 15px 32px;
-  border-radius: 30px;
-  -moz-border-radius: 30px;
-  -webkit-border-radius: 30px;
-} */
-
 .profile__cardbuttonContainer {
   display: flex;
   align-items: center;
 }
+
 .profile__cardbuttonContainer > button {
   margin-left: 10px;
   font-family: "Nunito", sans-serif;
   background: #a872ac;
-  border: 1px solid;
+  border: 2px solid;
   margin-top: 10px;
   border-color: #ffffff #ffffff #ffffff;
   color: #ffffff;
@@ -81,15 +68,19 @@ img {
   -moz-border-radius: 30px;
   -webkit-border-radius: 30px;
 }
-
+.profile__folContainer {
+}
 .profile__fol {
   display: flex;
-  margin-left: 20px;
+  margin-left: 10px;
   flex-direction: row;
+  background-color: #a872ac;
 }
 
 .profile__folstats {
+  color: white;
+  display: flex;
+  align-items: center;
   text-align: center;
-
   margin: 20px 30px;
 }
