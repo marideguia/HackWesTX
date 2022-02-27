@@ -1,0 +1,116 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    position: fixed;
+    overflow: auto;
+    background-color: rgba(1,1,1,0.7);
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    z-index: 100;
+    margin-bottom: 15%;
+}
+
+.post__close {
+    z-index: 100;
+    display: flex;
+    align-self: center;
+    position: sticky;
+    top: 5%;
+    background-color: rgba(0.5,0.5,0.5,0.5);
+    width: fit-content;
+    color: white;
+    border-radius: 24px;
+    -moz-border-radius: 24px;
+    -webkit-border-radius: 24px;
+}
+
+.post__thread {
+    min-width: 250px;
+    width: 40%;
+    position: relative;
+    text-align: left;
+    top: 10%;
+    left: 30%;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    -moz-border-bottom-left-radius: 24px;
+    -moz-border-bottom-right-radius: 24px;
+    -webkit-border-bottom-left-radius: 24px;
+    -webkit-border-bottom-right-radius: 24px;
+}
+
+.post__caption {
+    display: flex;
+    flex-direction: row;
+    background-color: #c0c0c0;
+    padding: 5px;
+}
+
+.post__avatarspace {
+    width: fit-content;
+}
+
+.post__userbar {
+    display: flex;
+}
+
+.post__interacts {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #666666;
+    border-top: gray solid 2px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.post__interactcounter {
+    display: flex;
+    align-items: center;
+}
+
+.post__interactcounter > strong {
+    margin-left: 5px;
+}
+
+.post__avatar {
+    object-fit: cover;
+    width: 32px;
+    margin: 5px;
+    margin-right: 10px;
+    border-radius: 24px;
+    -moz-border-radius: 24px;
+    -webkit-border-radius: 24px;
+}
+
+.post__comment {
+    display: flex;
+    flex-direction: row;
+    background-color: #909090;
+    border-top: solid gray 2px;
+    padding: 5px;
+}
+
+.post__comment:last-child {
+    padding: 6px;
+    text-align: center;
+    margin-bottom: 10%;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    -moz-border-bottom-left-radius: 24px;
+    -moz-border-bottom-right-radius: 24px;
+    -webkit-border-bottom-left-radius: 24px;
+    -webkit-border-bottom-right-radius: 24px;
+}
+
+.post__addcomment {
+    font-family: 'Nunito', sans-serif;
+    padding: 10px;
+    width: calc(100%);
+    border-width: 0px;
+    border-radius: 24px;
+    -moz-border-radius: 24px;
+    -webkit-border-radius: 24px;
+}
