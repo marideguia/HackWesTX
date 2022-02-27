@@ -1,0 +1,86 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 50%;
+    min-width: 250px;
+    width: 30%;
+    left: 35%;
+    margin-top: 5%;
+    border-radius: 24px;
+    -moz-border-radius: 24px;
+    -webkit-border-radius: 24px;
+}
+
+.login__title {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.login__form {
+    margin: 10px;
+}
+
+.login__field {
+    font-family: 'Nunito', sans-serif;
+    font-style: italic;
+    background-color: #ddd;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 24px;
+    -moz-border-radius: 24px;
+    -webkit-border-radius: 24px;
+    border: 0;
+}
+
+.login__split {
+    display: flex;
+    flex-direction: row;
+}
+
+.login__columnOne {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 5px;
+    font-size: smaller;
+    text-align: left;
+}
+
+.login__columnOne > button {
+    font-family: 'Nunito', sans-serif;
+    border-radius: 24px;
+    -moz-border-radius: 24px;
+    -webkit-border-radius: 24px;
+    border: none;
+    padding: 10px;
+}
+
+.login__columnTwo {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 5px;
+    width: 50%;
+    font-size: smaller;
+    text-align: left;
+    border-left: gray solid 1px;
+}
+
+.login__columnTwo > button {
+    font-family: 'Nunito', sans-serif;
+    border-radius: 24px;
+    -moz-border-radius: 24px;
+    -webkit-border-radius: 24px;
+    border: none;
+    padding: 10px;
+}
+
+.login__checkinfo {
+    padding: 5px;
+}
