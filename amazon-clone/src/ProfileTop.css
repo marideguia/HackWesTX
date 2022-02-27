@@ -1,16 +1,25 @@
 .profileTop {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  background-color: #c8a5ca;
-  width: 81%;
+  justify-content: left;
+
+  background-color: #a872ac;
+  width: 70%;
   border-radius: 20px;
+  /* border: 2px solid; */
+  border-color: rgb(255, 255, 255);
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  margin-bottom: 5px;
+  margin-top: 10px;
 }
 
 .profile__cardheader {
   /*left: icon, username, profession*/
   flex-direction: column;
   justify-content: center;
+  margin-left: 100px;
+
   /* background-color: #ffffff; */
 }
 .profile__imagecrop {
@@ -36,9 +45,11 @@ img {
 }
 
 .profile__cardabout {
+  color: black;
   /*right: about, followers,following,subs*/
   flex-direction: column;
   width: 70%;
+  margin-left: 80px;
 }
 .profile__description {
   text-align: left;
@@ -59,7 +70,7 @@ img {
   width: 70%;
   align-items: center;
   margin: 10px 5px;
-  background-color: #a872ac;
+  background-color: #7a4c7c;
 }
 .profile__folstats {
   color: white;
@@ -95,7 +106,7 @@ img {
   display: flex;
   align-items: center;
   /* background: #a872ac; */
-  margin-bottom: 5px;
+  margin-bottom: 20px;
   width: 70%;
 }
 .profile__cardbuttonContainer > button {

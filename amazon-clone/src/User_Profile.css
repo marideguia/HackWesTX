@@ -1,14 +1,23 @@
 .User_Profile {
   justify-content: center;
-  margin-left: 275px;
-  margin-right: auto;
-  max-width: 2000px;
-  /* background-color: #c8a5ca; */
+  align-items: center;
+  background-color: #c8a5ca;
 }
 
-.User_Profile__Container {
+.User_Profile__Container1 {
+  justify-content: center;
+  align-items: center;
   display: flex;
   flex-direction: column;
+  /* background-color: rgb(163, 49, 49); */
+}
+
+.User_Profile__Container2 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-left: 290px;
   /* background-color: rgb(163, 49, 49); */
 }
 
