@@ -1,4 +1,4 @@
 # HackWesTX
 
-HackWesTX Hackathon
+HackWesTX Hackathon entry
 
