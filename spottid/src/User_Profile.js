@@ -17,7 +17,7 @@ function User_Profile() {
           link='www.CarinaW.com'
           followers = '1039'
           following = '227'
-          subscribers = '15'
+          subscribers = '115'
         />     
     </div>
     <div className='User_Profile__Container2'>
@@ -28,7 +28,7 @@ function User_Profile() {
             image="https://mymodernmet.com/wp/wp-content/uploads/2020/01/enrique-bernal-florescent-drawings-1.jpg"
           />
           <Video
-            Thumbnail="https://i.pinimg.com/originals/10/7a/c9/107ac9bce43e9b97ea66464977ca0d77.gif"
+            Thumbnail="https://pbs.twimg.com/media/FEZoU8LXIAcyKEM.jpg"
             />
           <Song
             album="https://m.media-amazon.com/images/I/81pf4NjVhfL._SX522_.jpg"
@@ -97,10 +97,10 @@ function User_Profile() {
 
         <div className="column">
         <Video
-            Thumbnail="https://i.gifer.com/60q3.gif"
+            Thumbnail="https://i.gifer.com/WNUK.gif"
             />
           <Song
-            album="https://images.complex.com/complex/images/c_fill,dpr_auto,f_auto,q_auto,w_1400/fl_lossy,pg_1/n1spfyib0hwmvx7xvu75/silk-sonic?fimg-ssr-default"
+            album="https://images.pexels.com/photos/2170729/pexels-photo-2170729.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
           />
           <Image
             image="https://mymodernmet.com/wp/wp-content/uploads/2020/01/enrique-bernal-florescent-drawings-01.jpg"

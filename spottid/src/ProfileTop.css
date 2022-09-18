@@ -100,12 +100,18 @@ img {
   border-radius: 30px;
   -moz-border-radius: 30px;
   -webkit-border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+}
+.profile__cardFollowContainer > button:hover {
+  background: #fff;
+  cursor: pointer;
+  color:#a872ac;
+  transform: scale(1.1);
 }
 .profile__cardbuttonContainer {
   margin-left: 15px;
   display: flex;
   align-items: center;
-  /* background: #a872ac; */
   margin-bottom: 20px;
   width: 70%;
 }
@@ -120,6 +126,13 @@ img {
   color: #ffffff;
   padding: 15px 32px;
   border-radius: 30px;
+  transition: all 0.3s ease-in-out;
   -moz-border-radius: 30px;
   -webkit-border-radius: 30px;
+}
+.profile__cardbuttonContainer > button:hover {
+  background: #fff;
+  cursor: pointer;
+  color:#a872ac;
+  transform: scale(1.05);
 }
